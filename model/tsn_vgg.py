@@ -131,5 +131,6 @@ def VGG16_temporal(include_top=False,
 if __name__ =="__main__":
     vgg_model = VGG16_temporal()
     # vgg_model.summary()
+    print("model creation succesful")
 
    
